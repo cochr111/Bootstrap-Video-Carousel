@@ -1,0 +1,63 @@
+<style>
+.carousel-control{
+width:7.5%;
+color:#000000;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+
+.video{
+width:85%;
+margin-left:7.5%;
+}
+</style>
+
+<!--The data-interval="false" attribute and value turns off the automatic slide animation -->
+ <div id="myCarousel" class="carousel slide" data-interval="false">
+ <!--
+ The code below can be added to indicate how many slides/videos there are on the carousel.
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+ 
+ -->
+ 
+ <!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+			
+		<div class="item active">
+			<!--The width and height can/need to be adjusted for your site parameters-->
+			<iframe class="video" width="1140px" height="480px" src="https://www.youtube.com/embed/j2C8MkY7Co8?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div class="item">
+			<!--The width and height can/need to be adjusted for your site parameters-->
+			<iframe class="video" width="1140px" height="480px" src="https://www.youtube.com/embed/kO6CR2aAM3I?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+    
+ </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+	  <!--This <i> tag is template specific within my template conditions. Check yours to see if it renders icons differently within its library, otherwise, comment this line out and stick with the simple bootstrap glyphs-->
+	  <i class="fa fa-arrow-left"></i>
+	  </span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+	  <!--This <i> tag is template specific within my template conditions. Check yours to see if it renders icons differently within its library, otherwise, comment this line out and stick with the simple bootstrap glyphs-->
+	  <i class="fa fa-arrow-right"></i>
+	  </span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
