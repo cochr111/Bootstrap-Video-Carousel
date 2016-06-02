@@ -1,6 +1,6 @@
 # Bootstrap-Video-Carousel
 
-This is a custom youtube video carousel Bootstrap 3.3.6. You can easily alter the code to fit inside any template you might have.
+This is a custom youtube video carousel built within Bootstrap 3.3.6. You can easily alter the code to fit inside any template you might have.
 
 There is custom CSS used for altering the left and right controls so they do not overlap the youtube video controls, and also some CSS that removes the gradient coloring on the carousel controls. Additionally, the youtube links/iframes have been resized and the margin has been adjusted to fit within the specific template system I am using. This can easily be changed by a user for precise placement within a Bootstrap coded site. 
 
